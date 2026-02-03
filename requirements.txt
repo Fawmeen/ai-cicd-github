@@ -1,5 +1,7 @@
 # Production dependencies (none for this simple app)
 
 # Development/testing dependencies
+google-genai>=1.0.0
+
 pytest>=7.0.0
 build>=1.0.0
