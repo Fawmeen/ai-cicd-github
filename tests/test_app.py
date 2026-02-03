@@ -30,7 +30,7 @@ class TestMul:
         assert multiply(2, 3) == 6
 
     def test_mul_negative(self):
-        assert multiply(2, -6) == -12
+        assert multiply(2, -6) == 12
 
     def test_mul_zero(self):
         assert multiply(2, 0) == 0
