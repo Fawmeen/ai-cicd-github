@@ -22,3 +22,6 @@ def multiply(a: int, b: int) -> int:
 def square(n):
     """Return the square of a number."""
     return n * n
+def cube(n):
+    """Return the cube of a number."""
+    return n * n * n
