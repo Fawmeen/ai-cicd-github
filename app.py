@@ -19,14 +19,6 @@ def multiply(a: int, b: int) -> int:
     """Multiply two number"""
     return a*b
 
-def factorial(n):
-    """Calculate the factorial of n."""
-    if n < 0:
-        raise ValueError("Factorial not defined for negative numbers")
-    if n <= 1:
-        return 1
-    return n * factorial(n - 1)
-def divide(a: int, b: int) -> int:
-    if b==0:
-        return 1
-    return a/b
+def square(n):
+    """Return the square of a number."""
+    return n * n
