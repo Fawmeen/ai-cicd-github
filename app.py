@@ -18,3 +18,10 @@ def reverse_string(s: str) -> str:
 def multiply(a: int, b: int) -> int:
     """Multiply two number"""
     return a*b
+
+def square(n):
+    """Return the square of a number."""
+    return n * n
+def cube(n):
+    """Return the cube of a number."""
+    return n * n * n
